@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05318921188E146700B24248 /* BGDragView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05318920188E146700B24248 /* BGDragView-Info.plist */; };
+		BE37151217CC37D9005D0D4E /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE37151017CC37D9005D0D4E /* ViewController_iPhone.xib */; };
 		BE6AA18F17C371A4006FFD35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE6AA18E17C371A4006FFD35 /* UIKit.framework */; };
 		BE6AA19117C371A4006FFD35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE6AA19017C371A4006FFD35 /* Foundation.framework */; };
 		BE6AA19317C371A4006FFD35 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE6AA19217C371A4006FFD35 /* CoreGraphics.framework */; };
@@ -17,13 +19,13 @@
 		BE6AA1A317C371A4006FFD35 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6AA1A217C371A4006FFD35 /* Default@2x.png */; };
 		BE6AA1A517C371A4006FFD35 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6AA1A417C371A4006FFD35 /* Default-568h@2x.png */; };
 		BE6AA1A817C371A4006FFD35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6AA1A717C371A4006FFD35 /* ViewController.m */; };
-		BE6AA1AB17C371A4006FFD35 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE6AA1A917C371A4006FFD35 /* ViewController_iPhone.xib */; };
 		BE6AA1AE17C371A4006FFD35 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE6AA1AC17C371A4006FFD35 /* ViewController_iPad.xib */; };
 		BE6AA1B617C371A4006FFD35 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE6AA1B517C371A4006FFD35 /* SenTestingKit.framework */; };
 		BE6AA1B717C371A4006FFD35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE6AA18E17C371A4006FFD35 /* UIKit.framework */; };
 		BE6AA1B817C371A4006FFD35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE6AA19017C371A4006FFD35 /* Foundation.framework */; };
-		BE6AA1C017C371A4006FFD35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE6AA1BE17C371A4006FFD35 /* InfoPlist.strings */; };
-		BE6AA1C317C371A4006FFD35 /* IPhoneTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6AA1C217C371A4006FFD35 /* IPhoneTestTests.m */; };
+		BE8BCD6717CE2ADC006EE29A /* MyRect.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8BCD6617CE2ADC006EE29A /* MyRect.m */; };
+		BEB9DD5217CC46C300D42707 /* round_plus.png in Resources */ = {isa = PBXBuildFile; fileRef = BEB9DD5117CC46C300D42707 /* round_plus.png */; };
+		BEE3B15B17CC5B170012A93F /* TileView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE3B15A17CC5B170012A93F /* TileView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,14 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BE6AA18B17C371A4006FFD35 /* IPhoneTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPhoneTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05318920188E146700B24248 /* BGDragView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BGDragView-Info.plist"; sourceTree = "<group>"; };
+		BE37151117CC37D9005D0D4E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		BE6AA18B17C371A4006FFD35 /* BGDragView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BGDragView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE6AA18E17C371A4006FFD35 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BE6AA19017C371A4006FFD35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BE6AA19217C371A4006FFD35 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		BE6AA19617C371A4006FFD35 /* IPhoneTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IPhoneTest-Info.plist"; sourceTree = "<group>"; };
 		BE6AA19817C371A4006FFD35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BE6AA19A17C371A4006FFD35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BE6AA19C17C371A4006FFD35 /* IPhoneTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IPhoneTest-Prefix.pch"; sourceTree = "<group>"; };
+		BE6AA19C17C371A4006FFD35 /* BGDragView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BGDragView-Prefix.pch"; sourceTree = "<group>"; };
 		BE6AA19D17C371A4006FFD35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BE6AA19E17C371A4006FFD35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BE6AA1A017C371A4006FFD35 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -52,14 +55,14 @@
 		BE6AA1A417C371A4006FFD35 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		BE6AA1A617C371A4006FFD35 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BE6AA1A717C371A4006FFD35 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BE6AA1AA17C371A4006FFD35 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		BE6AA1AD17C371A4006FFD35 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
-		BE6AA1B417C371A4006FFD35 /* IPhoneTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IPhoneTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE6AA1B417C371A4006FFD35 /* BGDragViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BGDragViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE6AA1B517C371A4006FFD35 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		BE6AA1BD17C371A4006FFD35 /* IPhoneTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IPhoneTestTests-Info.plist"; sourceTree = "<group>"; };
-		BE6AA1BF17C371A4006FFD35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BE6AA1C117C371A4006FFD35 /* IPhoneTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPhoneTestTests.h; sourceTree = "<group>"; };
-		BE6AA1C217C371A4006FFD35 /* IPhoneTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPhoneTestTests.m; sourceTree = "<group>"; };
+		BE8BCD6517CE2ADC006EE29A /* MyRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyRect.h; path = uility/MyRect.h; sourceTree = "<group>"; };
+		BE8BCD6617CE2ADC006EE29A /* MyRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyRect.m; path = uility/MyRect.m; sourceTree = "<group>"; };
+		BEB9DD5117CC46C300D42707 /* round_plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = round_plus.png; sourceTree = "<group>"; };
+		BEE3B15917CC5B170012A93F /* TileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileView.h; sourceTree = "<group>"; };
+		BEE3B15A17CC5B170012A93F /* TileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +92,8 @@
 		BE6AA18217C371A4006FFD35 = {
 			isa = PBXGroup;
 			children = (
-				BE6AA19417C371A4006FFD35 /* IPhoneTest */,
-				BE6AA1BB17C371A4006FFD35 /* IPhoneTestTests */,
+				BE6AA1CC17C376A2006FFD35 /* images */,
+				BE6AA19417C371A4006FFD35 /* BGDragView */,
 				BE6AA18D17C371A4006FFD35 /* Frameworks */,
 				BE6AA18C17C371A4006FFD35 /* Products */,
 			);
@@ -99,8 +102,8 @@
 		BE6AA18C17C371A4006FFD35 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BE6AA18B17C371A4006FFD35 /* IPhoneTest.app */,
-				BE6AA1B417C371A4006FFD35 /* IPhoneTestTests.octest */,
+				BE6AA18B17C371A4006FFD35 /* BGDragView.app */,
+				BE6AA1B417C371A4006FFD35 /* BGDragViewTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,27 +119,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BE6AA19417C371A4006FFD35 /* IPhoneTest */ = {
+		BE6AA19417C371A4006FFD35 /* BGDragView */ = {
 			isa = PBXGroup;
 			children = (
+				BEB9DD4C17CC40FA00D42707 /* utility */,
 				BE6AA19D17C371A4006FFD35 /* AppDelegate.h */,
 				BE6AA19E17C371A4006FFD35 /* AppDelegate.m */,
 				BE6AA1A617C371A4006FFD35 /* ViewController.h */,
 				BE6AA1A717C371A4006FFD35 /* ViewController.m */,
-				BE6AA1A917C371A4006FFD35 /* ViewController_iPhone.xib */,
-				BE6AA1AC17C371A4006FFD35 /* ViewController_iPad.xib */,
 				BE6AA19517C371A4006FFD35 /* Supporting Files */,
+				BEE3B15917CC5B170012A93F /* TileView.h */,
+				BEE3B15A17CC5B170012A93F /* TileView.m */,
 			);
-			path = IPhoneTest;
+			path = BGDragView;
 			sourceTree = "<group>";
 		};
 		BE6AA19517C371A4006FFD35 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BE6AA19617C371A4006FFD35 /* IPhoneTest-Info.plist */,
+				BEB9DD5017CC46C300D42707 /* images */,
+				BE37151017CC37D9005D0D4E /* ViewController_iPhone.xib */,
+				BE6AA1AC17C371A4006FFD35 /* ViewController_iPad.xib */,
+				05318920188E146700B24248 /* BGDragView-Info.plist */,
 				BE6AA19717C371A4006FFD35 /* InfoPlist.strings */,
 				BE6AA19A17C371A4006FFD35 /* main.m */,
-				BE6AA19C17C371A4006FFD35 /* IPhoneTest-Prefix.pch */,
+				BE6AA19C17C371A4006FFD35 /* BGDragView-Prefix.pch */,
 				BE6AA1A017C371A4006FFD35 /* Default.png */,
 				BE6AA1A217C371A4006FFD35 /* Default@2x.png */,
 				BE6AA1A417C371A4006FFD35 /* Default-568h@2x.png */,
@@ -144,31 +151,36 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		BE6AA1BB17C371A4006FFD35 /* IPhoneTestTests */ = {
+		BE6AA1CC17C376A2006FFD35 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				BE6AA1C117C371A4006FFD35 /* IPhoneTestTests.h */,
-				BE6AA1C217C371A4006FFD35 /* IPhoneTestTests.m */,
-				BE6AA1BC17C371A4006FFD35 /* Supporting Files */,
 			);
-			path = IPhoneTestTests;
+			name = images;
 			sourceTree = "<group>";
 		};
-		BE6AA1BC17C371A4006FFD35 /* Supporting Files */ = {
+		BEB9DD4C17CC40FA00D42707 /* utility */ = {
 			isa = PBXGroup;
 			children = (
-				BE6AA1BD17C371A4006FFD35 /* IPhoneTestTests-Info.plist */,
-				BE6AA1BE17C371A4006FFD35 /* InfoPlist.strings */,
+				BE8BCD6517CE2ADC006EE29A /* MyRect.h */,
+				BE8BCD6617CE2ADC006EE29A /* MyRect.m */,
 			);
-			name = "Supporting Files";
+			name = utility;
+			sourceTree = "<group>";
+		};
+		BEB9DD5017CC46C300D42707 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BEB9DD5117CC46C300D42707 /* round_plus.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BE6AA18A17C371A4006FFD35 /* IPhoneTest */ = {
+		BE6AA18A17C371A4006FFD35 /* BGDragView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE6AA1C617C371A4006FFD35 /* Build configuration list for PBXNativeTarget "IPhoneTest" */;
+			buildConfigurationList = BE6AA1C617C371A4006FFD35 /* Build configuration list for PBXNativeTarget "BGDragView" */;
 			buildPhases = (
 				BE6AA18717C371A4006FFD35 /* Sources */,
 				BE6AA18817C371A4006FFD35 /* Frameworks */,
@@ -178,14 +190,14 @@
 			);
 			dependencies = (
 			);
-			name = IPhoneTest;
+			name = BGDragView;
 			productName = IPhoneTest;
-			productReference = BE6AA18B17C371A4006FFD35 /* IPhoneTest.app */;
+			productReference = BE6AA18B17C371A4006FFD35 /* BGDragView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BE6AA1B317C371A4006FFD35 /* IPhoneTestTests */ = {
+		BE6AA1B317C371A4006FFD35 /* BGDragViewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE6AA1C917C371A4006FFD35 /* Build configuration list for PBXNativeTarget "IPhoneTestTests" */;
+			buildConfigurationList = BE6AA1C917C371A4006FFD35 /* Build configuration list for PBXNativeTarget "BGDragViewTests" */;
 			buildPhases = (
 				BE6AA1AF17C371A4006FFD35 /* Sources */,
 				BE6AA1B017C371A4006FFD35 /* Frameworks */,
@@ -197,9 +209,9 @@
 			dependencies = (
 				BE6AA1BA17C371A4006FFD35 /* PBXTargetDependency */,
 			);
-			name = IPhoneTestTests;
+			name = BGDragViewTests;
 			productName = IPhoneTestTests;
-			productReference = BE6AA1B417C371A4006FFD35 /* IPhoneTestTests.octest */;
+			productReference = BE6AA1B417C371A4006FFD35 /* BGDragViewTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -211,7 +223,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = Luwei;
 			};
-			buildConfigurationList = BE6AA18617C371A4006FFD35 /* Build configuration list for PBXProject "IPhoneTest" */;
+			buildConfigurationList = BE6AA18617C371A4006FFD35 /* Build configuration list for PBXProject "BGDragView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -223,8 +235,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BE6AA18A17C371A4006FFD35 /* IPhoneTest */,
-				BE6AA1B317C371A4006FFD35 /* IPhoneTestTests */,
+				BE6AA18A17C371A4006FFD35 /* BGDragView */,
+				BE6AA1B317C371A4006FFD35 /* BGDragViewTests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,10 +248,12 @@
 			files = (
 				BE6AA19917C371A4006FFD35 /* InfoPlist.strings in Resources */,
 				BE6AA1A117C371A4006FFD35 /* Default.png in Resources */,
+				05318921188E146700B24248 /* BGDragView-Info.plist in Resources */,
 				BE6AA1A317C371A4006FFD35 /* Default@2x.png in Resources */,
 				BE6AA1A517C371A4006FFD35 /* Default-568h@2x.png in Resources */,
-				BE6AA1AB17C371A4006FFD35 /* ViewController_iPhone.xib in Resources */,
 				BE6AA1AE17C371A4006FFD35 /* ViewController_iPad.xib in Resources */,
+				BE37151217CC37D9005D0D4E /* ViewController_iPhone.xib in Resources */,
+				BEB9DD5217CC46C300D42707 /* round_plus.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +261,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE6AA1C017C371A4006FFD35 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +290,8 @@
 				BE6AA19B17C371A4006FFD35 /* main.m in Sources */,
 				BE6AA19F17C371A4006FFD35 /* AppDelegate.m in Sources */,
 				BE6AA1A817C371A4006FFD35 /* ViewController.m in Sources */,
+				BEE3B15B17CC5B170012A93F /* TileView.m in Sources */,
+				BE8BCD6717CE2ADC006EE29A /* MyRect.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +299,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE6AA1C317C371A4006FFD35 /* IPhoneTestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,12 +307,20 @@
 /* Begin PBXTargetDependency section */
 		BE6AA1BA17C371A4006FFD35 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BE6AA18A17C371A4006FFD35 /* IPhoneTest */;
+			target = BE6AA18A17C371A4006FFD35 /* BGDragView */;
 			targetProxy = BE6AA1B917C371A4006FFD35 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		BE37151017CC37D9005D0D4E /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE37151117CC37D9005D0D4E /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
 		BE6AA19717C371A4006FFD35 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -307,28 +329,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		BE6AA1A917C371A4006FFD35 /* ViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BE6AA1AA17C371A4006FFD35 /* en */,
-			);
-			name = ViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
 		BE6AA1AC17C371A4006FFD35 /* ViewController_iPad.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				BE6AA1AD17C371A4006FFD35 /* en */,
 			);
 			name = ViewController_iPad.xib;
-			sourceTree = "<group>";
-		};
-		BE6AA1BE17C371A4006FFD35 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BE6AA1BF17C371A4006FFD35 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -396,9 +402,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "IPhoneTest/IPhoneTest-Prefix.pch";
-				INFOPLIST_FILE = "IPhoneTest/IPhoneTest-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "BGDragView/BGDragView-Prefix.pch";
+				INFOPLIST_FILE = "BGDragView/BGDragView-Info.plist";
+				PRODUCT_NAME = BGDragView;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -407,9 +413,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "IPhoneTest/IPhoneTest-Prefix.pch";
-				INFOPLIST_FILE = "IPhoneTest/IPhoneTest-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "BGDragView/BGDragView-Prefix.pch";
+				INFOPLIST_FILE = "BGDragView/BGDragView-Info.plist";
+				PRODUCT_NAME = BGDragView;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -424,8 +430,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IPhoneTest/IPhoneTest-Prefix.pch";
-				INFOPLIST_FILE = "IPhoneTestTests/IPhoneTestTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "IPhoneTestTests/BGDragViewTests-Info.plist";
+				PRODUCT_NAME = BGDragViewTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -441,8 +447,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IPhoneTest/IPhoneTest-Prefix.pch";
-				INFOPLIST_FILE = "IPhoneTestTests/IPhoneTestTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "IPhoneTestTests/BGDragViewTests-Info.plist";
+				PRODUCT_NAME = BGDragViewTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -451,7 +457,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BE6AA18617C371A4006FFD35 /* Build configuration list for PBXProject "IPhoneTest" */ = {
+		BE6AA18617C371A4006FFD35 /* Build configuration list for PBXProject "BGDragView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BE6AA1C417C371A4006FFD35 /* Debug */,
@@ -460,21 +466,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE6AA1C617C371A4006FFD35 /* Build configuration list for PBXNativeTarget "IPhoneTest" */ = {
+		BE6AA1C617C371A4006FFD35 /* Build configuration list for PBXNativeTarget "BGDragView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BE6AA1C717C371A4006FFD35 /* Debug */,
 				BE6AA1C817C371A4006FFD35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		BE6AA1C917C371A4006FFD35 /* Build configuration list for PBXNativeTarget "IPhoneTestTests" */ = {
+		BE6AA1C917C371A4006FFD35 /* Build configuration list for PBXNativeTarget "BGDragViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BE6AA1CA17C371A4006FFD35 /* Debug */,
 				BE6AA1CB17C371A4006FFD35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
